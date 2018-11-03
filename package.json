@@ -1,0 +1,26 @@
+{
+  "name": "burgersv2",
+  "version": "1.0.0",
+  "description": "1. This project is a part of my coursework requirements for the UC Berkeley Extension Coding Bootcamp. It aims to create the Eat-Da-Burger app which utilizes node, mysql and handlebars.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonMaramba/burgersv2.git"
+  },
+  "author": "Mon Maramba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonMaramba/burgersv2/issues"
+  },
+  "homepage": "https://github.com/MonMaramba/burgersv2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
